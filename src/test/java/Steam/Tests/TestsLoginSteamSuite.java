@@ -1,6 +1,7 @@
 package Steam.Tests;
 
-import Steam.Page.LoginPage;
+import Steam.Pages.LoginPage;
+import Steam.Login.Login;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -11,13 +12,11 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Class TestsLoginSteam
+ * Class TestsLoginSteamSuite
  * Класс UI-тестов для проверки страницы авторизации.
  */
-public class TestsLoginSteam {
+public class TestsLoginSteamSuite {
     private WebDriver driver;
-    private String login;
-    private String password;
 
     /**
      * Метод для предварительных инициализаций перед тестом.
@@ -25,11 +24,9 @@ public class TestsLoginSteam {
     @Before
     public void steamLoginBefore() {
         System.setProperty("webdriver.chrome.driver", "/usr/local/share/chromedriver");
-        login    = "testuserprojects";
-        password = "testuserUniform64";
-        driver   = new ChromeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://store.steampowered.com/");
+        driver.get(LoginPage.goToPageURL);
     }
 
     /**
@@ -48,9 +45,9 @@ public class TestsLoginSteam {
     public void testSteamAuth() throws InterruptedException {
         driver.findElement(LoginPage.loginBtn).click();
         driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu).click();
@@ -73,9 +70,9 @@ public class TestsLoginSteam {
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
         driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu);
@@ -88,16 +85,16 @@ public class TestsLoginSteam {
     public void testSteamAuthWithWrongName() {
         driver.findElement(LoginPage.loginBtn).click();
         driver.findElement(LoginPage.nameField).sendKeys("wrongName");
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(LoginPage.wrongAuthMessage);
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
         driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu);
@@ -109,7 +106,7 @@ public class TestsLoginSteam {
     @Test
     public void testSteamAuthWithWrongPassword() {
         driver.findElement(LoginPage.loginBtn).click();
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordField).sendKeys("wrongPassword");
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -117,9 +114,9 @@ public class TestsLoginSteam {
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
         driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu);
@@ -132,16 +129,16 @@ public class TestsLoginSteam {
     public void testSteamAuthWithoutName() {
         driver.findElement(LoginPage.loginBtn).click();
         driver.findElement(LoginPage.nameField).sendKeys("");
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(LoginPage.loginPageBlock);
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
         driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu);
@@ -153,7 +150,7 @@ public class TestsLoginSteam {
     @Test
     public void testSteamAuthWithoutPassword() {
         driver.findElement(LoginPage.loginBtn).click();
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordField).sendKeys("");
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
@@ -161,9 +158,9 @@ public class TestsLoginSteam {
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
         driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(login);
+        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
         driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(password);
+        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu);

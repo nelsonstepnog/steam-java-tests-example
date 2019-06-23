@@ -1,4 +1,4 @@
-package Steam.Page;
+package Steam.Pages;
 
 import org.openqa.selenium.By;
 

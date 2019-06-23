@@ -1,4 +1,4 @@
-package Steam.Page;
+package Steam.Pages;
 
 import org.openqa.selenium.By;
 
@@ -7,6 +7,11 @@ import org.openqa.selenium.By;
  * Класс паттерна PageObject с описанием элементов страницы авторизации.
  */
 public class LoginPage {
+
+    /**
+     * URL страница тестируемого сервиса.
+     */
+    public static String goToPageURL = "https://store.steampowered.com/";
 
     /**
      * Кнопка перехода на страницу авторизации из домашней страницы.
