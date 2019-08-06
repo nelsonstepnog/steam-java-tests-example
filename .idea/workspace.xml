@@ -2,16 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50a2399-9758-49ae-aadb-79a38aed60ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/Steam/Login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steam/Pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steam/Pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Page/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steam/Pages/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteamSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteamSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Steam/Page/LoginPage.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_json_path_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_common_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_xml_path_2_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180130.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/backend/tests/DifferentApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/backend/tests/HttpBinApiTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webdriver/chromedriver" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/pages/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/pages/MenuPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteamSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/tests/TestsLoginSteamSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteamSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/tests/TestsMainSteamSuite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/steam-java-tests-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/steam-java-tests-example.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Steam.Tests.LoginSteamTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Steam.Tests.MainSteamTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Steam.Tests.LoginSteamTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Steam.Tests.MainSteamTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/steam-java-tests-example.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Login/Login.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/MenuPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsLoginSteam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsLoginSteamSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsMainSteam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsMainSteamSuite.class" beforeDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/classes/" />
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,155 +60,31 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Pages/LoginPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Login/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteamSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#676#677#0" expanded="true" />
-                <element signature="e#709#710#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteamSuite.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1530">
-              <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/test/java/Steam/Page/LoginPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteamSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteamSuite.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Steam/Login/Login.java" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="215" />
-    <option name="y" value="67" />
-    <option name="width" value="1701" />
-    <option name="height" value="980" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Steam" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Steam" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Steam" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="steam-java-tests-example" type="b2602c69:ProjectViewProjectNode" />
-              <item name="steam-java-tests-example" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Steam" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
+  <component name="ProjectId" id="1OeQ19oi1eOhNfeO4I1YzW5CEQs" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oop-java-developer-study" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/webdriver" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -184,17 +98,62 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestsMainSteamSuite">
+  <component name="RunManager" selected="JUnit.TestsLoginSteamSuite">
+    <configuration name="DifferentApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="steam-java-tests-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.backend.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.backend.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.tests.DifferentApiTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HttpBinApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="steam-java-tests-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.backend.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.backend.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.backend.tests.HttpBinApiTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestsLoginSteamSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="steam-java-tests-example" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.steam.frontend.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.steam.frontend.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.steam.frontend.tests.TestsLoginSteamSuite" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestsMainSteamSuite" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="steam-java-tests-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Steam.Tests.*" />
+          <option name="PATTERN" value="com.steam.frontend.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Steam.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Steam.Tests.TestsMainSteamSuite" />
+      <option name="PACKAGE_NAME" value="com.steam.frontend.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.steam.frontend.tests.TestsMainSteamSuite" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -204,22 +163,32 @@
       <module name="steam-java-tests-example" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Steam.Tests.*" />
+          <option name="PATTERN" value="com.steam.frontend.tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Steam.Tests" />
-      <option name="MAIN_CLASS_NAME" value="Steam.Tests.TestsMainSteamSuite" />
+      <option name="PACKAGE_NAME" value="com.steam.frontend.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.steam.frontend.tests.TestsMainSteamSuite" />
       <option name="METHOD_NAME" value="testSteamFindGame" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="steam-java-tests-example" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.spring.rest.api.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestsLoginSteamSuite" />
         <item itemvalue="JUnit.TestsMainSteamSuite" />
         <item itemvalue="JUnit.TestsMainSteamSuite.testSteamFindGame" />
+        <item itemvalue="JUnit.HttpBinApiTests" />
+        <item itemvalue="JUnit.DifferentApiTests" />
       </list>
     </recent_temporary>
   </component>
@@ -234,122 +203,37 @@
       <option name="presentableId" value="Default" />
       <updated>1561318991540</updated>
       <workItem from="1561318995128" duration="106000" />
-      <workItem from="1561319117856" duration="8516000" />
+      <workItem from="1561319117856" duration="9114000" />
+      <workItem from="1564232541704" duration="25000" />
+      <workItem from="1564233664364" duration="501000" />
+      <workItem from="1564234353795" duration="2274000" />
+      <workItem from="1564290780495" duration="599000" />
+      <workItem from="1564335373720" duration="478000" />
+      <workItem from="1564413536991" duration="632000" />
+      <workItem from="1564417430095" duration="1429000" />
+      <workItem from="1564495065387" duration="620000" />
+      <workItem from="1564860118554" duration="4136000" />
+      <workItem from="1564868397569" duration="13874000" />
+      <workItem from="1565008812932" duration="27978000" />
+      <workItem from="1565115219640" duration="1349000" />
+      <workItem from="1565117275425" duration="3327000" />
     </task>
     <servers />
-  </component>
-  <component name="TestHistory">
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 03h 17m 53s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 03h 29m 33s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 03h 31m 41s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 03h 33m 35s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 03h 59m 35s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 04h 05m 19s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite_testSteamFindGame - 2019.06.24 at 04h 26m 25s.xml">
-      <configuration name="TestsMainSteamSuite.testSteamFindGame" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 04h 26m 54s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 04h 41m 22s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestsMainSteamSuite - 2019.06.24 at 04h 52m 11s.xml">
-      <configuration name="TestsMainSteamSuite" configurationId="JUnit" />
-    </history-entry>
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8622000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="215" y="67" width="1701" height="980" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25256798" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32902467" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32902467" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Pages/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteamSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1530">
-          <caret line="21" column="60" lean-forward="true" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Login/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="42" lean-forward="true" selection-start-line="31" selection-start-column="42" selection-end-line="31" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteamSuite.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="19" column="50" lean-forward="true" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#676#677#0" expanded="true" />
-            <element signature="e#709#710#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
