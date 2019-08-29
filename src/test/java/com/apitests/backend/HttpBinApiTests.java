@@ -1,4 +1,4 @@
-package com.backend.tests;
+package com.apitests.backend;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;

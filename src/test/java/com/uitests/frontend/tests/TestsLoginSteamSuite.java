@@ -1,7 +1,7 @@
-package com.steam.frontend.tests;
+package com.uitests.frontend.tests;
 
-import com.steam.frontend.pages.LoginPage;
-import com.steam.frontend.login.Login;
+import com.uitests.frontend.pages.LoginPage;
+import com.uitests.frontend.login.Login;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

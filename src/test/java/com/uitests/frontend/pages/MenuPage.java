@@ -1,4 +1,4 @@
-package com.steam.frontend.pages;
+package com.uitests.frontend.pages;
 
 import org.openqa.selenium.By;
 

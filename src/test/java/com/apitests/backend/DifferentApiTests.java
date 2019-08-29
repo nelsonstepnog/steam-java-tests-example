@@ -1,4 +1,4 @@
-package com.backend.tests;
+package com.apitests.backend;
 
 import com.jayway.restassured.http.ContentType;
 import io.restassured.response.Response;

@@ -1,8 +1,8 @@
-package com.steam.frontend.tests;
+package com.uitests.frontend.tests;
 
-import com.steam.frontend.login.Login;
-import com.steam.frontend.pages.MainPage;
-import com.steam.frontend.pages.MenuPage;
+import com.uitests.frontend.login.Login;
+import com.uitests.frontend.pages.MainPage;
+import com.uitests.frontend.pages.MenuPage;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;

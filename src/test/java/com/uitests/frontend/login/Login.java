@@ -1,6 +1,6 @@
-package com.steam.frontend.login;
+package com.uitests.frontend.login;
 
-import com.steam.frontend.pages.LoginPage;
+import com.uitests.frontend.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 

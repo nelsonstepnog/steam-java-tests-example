@@ -2,53 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d50a2399-9758-49ae-aadb-79a38aed60ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_json_path_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_rest_assured_common_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_restassured_xml_path_2_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_1_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_2_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20180130.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/backend/tests/DifferentApiTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/backend/tests/HttpBinApiTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webdriver/chromedriver" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Pages/MenuPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/pages/MenuPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsLoginSteamSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/tests/TestsLoginSteamSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Steam/Tests/TestsMainSteamSuite.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/steam/frontend/tests/TestsMainSteamSuite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/steam-java-tests-example.iml" beforeDir="false" afterPath="$PROJECT_DIR$/steam-java-tests-example.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Steam.Tests.LoginSteamTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Steam.Tests.MainSteamTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Steam.Tests.LoginSteamTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-Steam.Tests.MainSteamTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/steam-java-tests-example.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/LoginPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/MainPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Page/MenuPage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsLoginSteam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsLoginSteamSuite.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsMainSteam.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Steam/Tests/TestsMainSteamSuite.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/backend/tests/DifferentApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apitests/backend/DifferentApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/backend/tests/HttpBinApiTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/apitests/backend/HttpBinApiTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/steam/frontend/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/steam/frontend/login/Login.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +32,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oop-java-developer-study" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -98,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestsLoginSteamSuite">
+  <component name="RunManager" selected="JUnit.DifferentApiTests">
     <configuration name="DifferentApiTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="steam-java-tests-example" />
       <extension name="coverage">
@@ -184,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DifferentApiTests" />
+        <item itemvalue="JUnit.HttpBinApiTests" />
         <item itemvalue="JUnit.TestsLoginSteamSuite" />
         <item itemvalue="JUnit.TestsMainSteamSuite" />
         <item itemvalue="JUnit.TestsMainSteamSuite.testSteamFindGame" />
-        <item itemvalue="JUnit.HttpBinApiTests" />
-        <item itemvalue="JUnit.DifferentApiTests" />
       </list>
     </recent_temporary>
   </component>
@@ -216,7 +173,14 @@
       <workItem from="1564868397569" duration="13874000" />
       <workItem from="1565008812932" duration="27978000" />
       <workItem from="1565115219640" duration="1349000" />
-      <workItem from="1565117275425" duration="3327000" />
+      <workItem from="1565117275425" duration="4477000" />
+      <workItem from="1565428079127" duration="1198000" />
+      <workItem from="1565622866646" duration="625000" />
+      <workItem from="1565804296791" duration="599000" />
+      <workItem from="1565876009307" duration="664000" />
+      <workItem from="1566186947828" duration="599000" />
+      <workItem from="1566731426166" duration="599000" />
+      <workItem from="1567079334997" duration="1995000" />
     </task>
     <servers />
   </component>
