@@ -1,6 +1,8 @@
 package com.uitests.frontend.tests;
 
+import com.uitests.frontend.helpers.DriverHelper;
 import com.uitests.frontend.login.Login;
+import com.uitests.frontend.pages.LoginPage;
 import com.uitests.frontend.pages.MainPage;
 import com.uitests.frontend.pages.MenuPage;
 import org.junit.Before;
@@ -16,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * Класс UI-тестов для проверки тестовых сценариев на основной странице.
  */
 public class TestsMainSteamSuite extends Login {
-    private WebDriver driver = getWebDriver();
+    private WebDriver driver = DriverHelper.getWebDriver();
     private Actions builder = new Actions(driver);
 
     /**
@@ -24,7 +26,8 @@ public class TestsMainSteamSuite extends Login {
      */
     @Before
     public void steamMainBefore() {
-        loginAsTestUser();
+        driver.get(LoginPage.goToPageURL);
+        loginAsTestUser(driver);
     }
 
     /**

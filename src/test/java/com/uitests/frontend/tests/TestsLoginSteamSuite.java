@@ -2,12 +2,12 @@ package com.uitests.frontend.tests;
 
 import com.uitests.frontend.pages.LoginPage;
 import com.uitests.frontend.login.Login;
+import com.uitests.frontend.helpers.DriverHelper;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.WebDriver;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,15 +16,13 @@ import java.util.concurrent.TimeUnit;
  * Класс UI-тестов для проверки страницы авторизации.
  */
 public class TestsLoginSteamSuite {
-    private WebDriver driver;
+    private WebDriver driver = DriverHelper.getWebDriver();
 
     /**
      * Метод для предварительных инициализаций перед тестом.
      */
     @Before
     public void steamLoginBefore() {
-        System.setProperty("webdriver.chrome.driver", "webdriver/chromedriver");
-        driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get(LoginPage.goToPageURL);
     }
@@ -67,50 +65,6 @@ public class TestsLoginSteamSuite {
         driver.findElement(LoginPage.submitBtn).click();
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
         driver.findElement(LoginPage.wrongAuthMessage);
-        driver.findElement(LoginPage.nameField).clear();
-        driver.findElement(LoginPage.passwordField).clear();
-        driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
-        driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
-        driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(LoginPage.userNameInMenu);
-    }
-
-    /**
-     * Негативный тест с проверкой страницы авторизации под обычным пользователем без заполнения поля логина.
-     */
-    @Test
-    public void testSteamAuthWithoutName() {
-        driver.findElement(LoginPage.loginBtn).click();
-        driver.findElement(LoginPage.nameField).sendKeys("");
-        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
-        driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.findElement(LoginPage.loginPageBlock);
-        driver.findElement(LoginPage.nameField).clear();
-        driver.findElement(LoginPage.passwordField).clear();
-        driver.findElement(LoginPage.nameLabel);
-        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
-        driver.findElement(LoginPage.passwordLabel);
-        driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
-        driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.findElement(LoginPage.userNameInMenu);
-    }
-
-    /**
-     * Негативный тест с проверкой страницы авторизации под обычным пользователем без заполнения поля пароля.
-     */
-    @Test
-    public void testSteamAuthWithoutPassword() {
-        driver.findElement(LoginPage.loginBtn).click();
-        driver.findElement(LoginPage.nameField).sendKeys(Login.login);
-        driver.findElement(LoginPage.passwordField).sendKeys("");
-        driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
-        driver.findElement(LoginPage.loginPageBlock);
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
         driver.findElement(LoginPage.nameLabel);
