@@ -1,0 +1,63 @@
+{
+  "uid" : "c6b4aa40b4e2813a",
+  "name" : "Позитивный тест с проверкой страницы авторизации под обычным пользователем.",
+  "fullName" : "com.uitests.frontend.tests.TestsLoginSteamSuite.testSteamAuth",
+  "historyId" : "b04a6e270a285c999067255504c9aeef",
+  "time" : {
+    "start" : 1570742382859,
+    "stop" : 1570742408170,
+    "duration" : 25311
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.uitests.frontend.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.uitests.frontend.tests.TestsLoginSteamSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSteamAuth"
+  }, {
+    "name" : "suite",
+    "value" : "com.uitests.frontend.tests.TestsLoginSteamSuite"
+  }, {
+    "name" : "host",
+    "value" : "Nells-PC"
+  }, {
+    "name" : "thread",
+    "value" : "21771@Nells-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6b4aa40b4e2813a.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

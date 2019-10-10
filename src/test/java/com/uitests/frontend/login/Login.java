@@ -18,8 +18,6 @@ public class Login {
      */
     protected void loginAsTestUser(WebDriver driver) {
         // System.setProperty("webdriver.chrome.driver", "webdriver/chromedriver");
-        driver.manage().window().maximize();
-        driver.get(LoginPage.goToPageURL);
         driver.findElement(LoginPage.loginBtn).click();
         driver.findElement(LoginPage.nameLabel);
         driver.findElement(LoginPage.nameField).sendKeys(login);

@@ -1,0 +1,63 @@
+{
+  "uid" : "fb5fb201491a7dff",
+  "name" : "testHttpBinOnlineGet",
+  "fullName" : "com.apitests.backend.HttpBinApiTests.testHttpBinOnlineGet",
+  "historyId" : "5283257b3c83136fd5b1cefff87dcfef",
+  "time" : {
+    "start" : 1570742350878,
+    "stop" : 1570742351273,
+    "duration" : 395
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.apitests.backend"
+  }, {
+    "name" : "testClass",
+    "value" : "com.apitests.backend.HttpBinApiTests"
+  }, {
+    "name" : "testMethod",
+    "value" : "testHttpBinOnlineGet"
+  }, {
+    "name" : "suite",
+    "value" : "com.apitests.backend.HttpBinApiTests"
+  }, {
+    "name" : "host",
+    "value" : "Nells-PC"
+  }, {
+    "name" : "thread",
+    "value" : "21771@Nells-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb5fb201491a7dff.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}

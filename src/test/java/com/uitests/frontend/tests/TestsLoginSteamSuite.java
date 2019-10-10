@@ -8,6 +8,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
+import io.qameta.allure.junit4.DisplayName;
 
 import java.util.concurrent.TimeUnit;
 
@@ -23,8 +24,8 @@ public class TestsLoginSteamSuite {
      */
     @Before
     public void steamLoginBefore() {
-        driver.manage().window().maximize();
-        driver.get(LoginPage.goToPageURL);
+        // driver.manage().window().maximize();
+        // driver.get(LoginPage.goToPageURL);
     }
 
     /**
@@ -32,7 +33,7 @@ public class TestsLoginSteamSuite {
      */
     @After
     public void steamLoginAfter() throws InterruptedException {
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         driver.close();
     }
 
@@ -40,6 +41,7 @@ public class TestsLoginSteamSuite {
      * Позитивный тест с проверкой страницы авторизации под обычным пользователем.
      */
     @Test
+    @DisplayName("Позитивный тест с проверкой страницы авторизации под обычным пользователем.")
     public void testSteamAuth() throws InterruptedException {
         driver.findElement(LoginPage.loginBtn).click();
         driver.findElement(LoginPage.nameLabel);
@@ -47,10 +49,10 @@ public class TestsLoginSteamSuite {
         driver.findElement(LoginPage.passwordLabel);
         driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu).click();
         driver.findElement(LoginPage.logOutBtn).click();
-        Thread.sleep(3000);
+        Thread.sleep(1000);
         Assert.assertTrue(driver.findElements((LoginPage.userNameInMenu)).isEmpty());
     }
 
@@ -58,12 +60,13 @@ public class TestsLoginSteamSuite {
      * Негативный тест с проверкой страницы авторизации под обычным пользователем с невалидными логином и паролем.
      */
     @Test
+    @DisplayName("Негативный тест с проверкой страницы авторизации под обычным пользователем с невалидными логином и паролем.")
     public void testSteamAuthWrongNameAndPassword() {
         driver.findElement(LoginPage.loginBtn).click();
         driver.findElement(LoginPage.nameField).sendKeys("wrongName");
         driver.findElement(LoginPage.passwordField).sendKeys("wrongPassword");
         driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(LoginPage.wrongAuthMessage);
         driver.findElement(LoginPage.nameField).clear();
         driver.findElement(LoginPage.passwordField).clear();
@@ -72,7 +75,7 @@ public class TestsLoginSteamSuite {
         driver.findElement(LoginPage.passwordLabel);
         driver.findElement(LoginPage.passwordField).sendKeys(Login.password);
         driver.findElement(LoginPage.submitBtn).click();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(LoginPage.userNameInMenu);
     }
 }

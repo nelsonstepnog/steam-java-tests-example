@@ -43,6 +43,7 @@ public class DifferentApiTests {
         RestAssured.given()
                 .baseUri("https://api.github.com")
                 .basePath("/users/maxkolotilkin")
+
                 .log().everything()
                 .contentType(String.valueOf(ContentType.JSON))
                 .body("{\n" +

@@ -1,0 +1,125 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "children" : [ {
+    "name" : "testHttpBinOnlinePost",
+    "uid" : "2f68aabf42bd3297",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742340855,
+      "stop" : 1570742350677,
+      "duration" : 9822
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testHttpBinOnlineGet",
+    "uid" : "fb5fb201491a7dff",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742350878,
+      "stop" : 1570742351273,
+      "duration" : 395
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testHttpBinOnlinePut",
+    "uid" : "396842aebe701d2e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742351284,
+      "stop" : 1570742352848,
+      "duration" : 1564
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "getGithubExampleTest",
+    "uid" : "f6bd21ea90da8218",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742352854,
+      "stop" : 1570742353718,
+      "duration" : 864
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "postRequestExampleTest",
+    "uid" : "447c85c20d81e7c6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742353720,
+      "stop" : 1570742354581,
+      "duration" : 861
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "testApiGithubOnline",
+    "uid" : "83ead2e8628c151a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742354583,
+      "stop" : 1570742354996,
+      "duration" : 413
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Негативный тест с проверкой страницы авторизации под обычным пользователем с невалидными логином и паролем.",
+    "uid" : "9cbecd18c0bfc622",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742365441,
+      "stop" : 1570742375300,
+      "duration" : 9859
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Позитивный тест с проверкой страницы авторизации под обычным пользователем.",
+    "uid" : "c6b4aa40b4e2813a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742382859,
+      "stop" : 1570742408170,
+      "duration" : 25311
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Позитивный тест с проверкой функционирования меню под хэдером.",
+    "uid" : "a2c53370f490f444",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742416506,
+      "stop" : 1570742461638,
+      "duration" : 45132
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Позитивный тест с проверкой функционирования поля поиска.",
+    "uid" : "cfbd18edca0f09a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1570742469221,
+      "stop" : 1570742488131,
+      "duration" : 18910
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ],
+  "name" : "behaviors"
+}

@@ -1,0 +1,95 @@
+{
+  "summary" : {
+    "reportName" : "Allure Report",
+    "testRuns" : [ ],
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    },
+    "time" : {
+      "start" : 1570742340855,
+      "stop" : 1570742488131,
+      "duration" : 147276,
+      "minDuration" : 395,
+      "maxDuration" : 45132,
+      "sumDuration" : 113131
+    }
+  },
+  "environment" : [ ],
+  "suites" : {
+    "total" : 4,
+    "items" : [ {
+      "uid" : "d9d919c4ebd0d22bdfd5baa07eb40aac",
+      "name" : "com.apitests.backend.HttpBinApiTests",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "aed945adeb660e61a9212689ab907058",
+      "name" : "com.apitests.backend.DifferentApiTests",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 3,
+        "unknown" : 0,
+        "total" : 3
+      }
+    }, {
+      "uid" : "01321ab603533d8080c1d79762ee1207",
+      "name" : "com.uitests.frontend.tests.TestsLoginSteamSuite",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    }, {
+      "uid" : "7204a745ef6e091c618a8c2bc6e0a8a4",
+      "name" : "com.uitests.frontend.tests.TestsMainSteamSuite",
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      }
+    } ]
+  },
+  "history-trend" : [ {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 10,
+      "unknown" : 0,
+      "total" : 10
+    }
+  } ],
+  "behaviors" : {
+    "total" : 10,
+    "items" : [ ]
+  },
+  "executors" : [ {
+    "name" : "Maven",
+    "type" : "maven",
+    "buildName" : "steam-java-tests-example"
+  } ],
+  "categories" : {
+    "total" : 0,
+    "items" : [ ]
+  },
+  "launches" : [ ]
+}

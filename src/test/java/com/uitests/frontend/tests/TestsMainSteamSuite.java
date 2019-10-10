@@ -10,6 +10,7 @@ import org.junit.Test;
 import org.junit.After;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
+import io.qameta.allure.junit4.DisplayName;
 
 import java.util.concurrent.TimeUnit;
 
@@ -43,10 +44,11 @@ public class TestsMainSteamSuite extends Login {
      * Позитивный тест с проверкой функционирования поля поиска.
      */
     @Test
+    @DisplayName("Позитивный тест с проверкой функционирования поля поиска.")
     public void testSteamFindGame() {
         driver.findElement(MainPage.searchFieldPlaceholder);
         driver.findElement(MainPage.searchField).sendKeys("Squad");
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MainPage.searchResult).click();
         driver.findElement(MainPage.resultPage);
     }
@@ -55,29 +57,30 @@ public class TestsMainSteamSuite extends Login {
      * Позитивный тест с проверкой функционирования меню под хэдером.
      */
     @Test
+    @DisplayName("Позитивный тест с проверкой функционирования меню под хэдером.")
     public void testSteamMenuCheck() throws InterruptedException {
         builder.moveToElement(driver.findElement(MenuPage.yourShopMenuBtn)).build().perform();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.mainPageInMenu).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.mainPageText);
         builder.moveToElement(driver.findElement(MenuPage.gamesMenuBtn)).build().perform();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.freeInMenu).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.freePageText);
         builder.moveToElement(driver.findElement(MenuPage.sofwareMenuBtn)).build().perform();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.softwareInMenu).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.softwarePageText);
         builder.moveToElement(driver.findElement(MenuPage.hardwareMenuBtn)).build().perform();
-        driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.valveIndexInMenu).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.valveIndexPageText);
         driver.findElement(MenuPage.newsHardwareMenuBtn).click();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(DriverHelper.timeOut, TimeUnit.SECONDS);
         driver.findElement(MenuPage.newsHardwarePageText);
         driver.navigate().refresh();
         Thread.sleep(2000);

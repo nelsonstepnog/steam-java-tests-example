@@ -1,0 +1,9 @@
+com/apitests/backend/DifferentApiTests.class
+com/apitests/backend/HttpBinApiTests.class
+com/uitests/frontend/tests/TestsLoginSteamSuite.class
+com/uitests/frontend/tests/TestsMainSteamSuite.class
+com/uitests/frontend/pages/MenuPage.class
+com/uitests/frontend/pages/LoginPage.class
+com/uitests/frontend/helpers/DriverHelper.class
+com/uitests/frontend/login/Login.class
+com/uitests/frontend/pages/MainPage.class

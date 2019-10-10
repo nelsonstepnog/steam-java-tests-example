@@ -1,0 +1,9 @@
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/pages/MainPage.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/apitests/backend/HttpBinApiTests.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/login/Login.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/tests/TestsMainSteamSuite.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/tests/TestsLoginSteamSuite.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/helpers/DriverHelper.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/pages/MenuPage.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/uitests/frontend/pages/LoginPage.java
+/home/nells/study/steam-java-tests-example/src/test/java/com/apitests/backend/DifferentApiTests.java

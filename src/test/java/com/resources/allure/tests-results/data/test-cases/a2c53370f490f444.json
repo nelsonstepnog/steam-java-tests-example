@@ -1,0 +1,63 @@
+{
+  "uid" : "a2c53370f490f444",
+  "name" : "Позитивный тест с проверкой функционирования меню под хэдером.",
+  "fullName" : "com.uitests.frontend.tests.TestsMainSteamSuite.testSteamMenuCheck",
+  "historyId" : "88987377b32568043d3cc12da3111ebc",
+  "time" : {
+    "start" : 1570742416506,
+    "stop" : 1570742461638,
+    "duration" : 45132
+  },
+  "status" : "passed",
+  "statusDetails" : {
+    "flaky" : false
+  },
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.uitests.frontend.tests"
+  }, {
+    "name" : "testClass",
+    "value" : "com.uitests.frontend.tests.TestsMainSteamSuite"
+  }, {
+    "name" : "testMethod",
+    "value" : "testSteamMenuCheck"
+  }, {
+    "name" : "suite",
+    "value" : "com.uitests.frontend.tests.TestsMainSteamSuite"
+  }, {
+    "name" : "host",
+    "value" : "Nells-PC"
+  }, {
+    "name" : "thread",
+    "value" : "21771@Nells-PC.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a2c53370f490f444.json",
+  "statusDetailsSafe" : {
+    "flaky" : false
+  },
+  "statusMessage" : {
+    "empty" : true,
+    "present" : false
+  },
+  "parameterValues" : [ ]
+}
